@@ -42,8 +42,7 @@ def plot_throughput(distance):
     plt.close()
 
 if __name__ == "__main__":
-    # List the distances you measured (e.g., 2, 4, 6, 7, 8 meters)
-    distances = [2, 4, 6, 7, 8] 
+    distances = [2, 4, 8, 10, 15] 
     
     for d in distances:
         plot_throughput(d)
